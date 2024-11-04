@@ -5,7 +5,6 @@ import Cart from './Cart';
 import ProductList from '../pages/ProductList';
 import ProductDetailView from '../pages/ProductDetailView';
 
-// Reducer function for managing cart state
 const cartReducer = (state, action) => {
   switch (action.type) {
     case 'ADD_TO_CART':
